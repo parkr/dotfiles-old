@@ -1,1 +1,5 @@
-/Users/parkermoore/.js/kybele.psych.cornell.edu.js
+$(function(){
+	$("td.title a").each(function(){
+		$(this).attr("target", "_blank");
+	});
+});

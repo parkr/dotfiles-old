@@ -1,1 +1,3 @@
-/Users/parkermoore/.js/instapaper.com.js
+(function(){
+	$("a.tableViewCellTitleLink").attr("target", "_blank");
+})();
